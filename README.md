@@ -20,20 +20,20 @@ A simple web-based calculator using HTML, CSS, and JavaScript. Supports basic op
 ---
 
 
-calculator/
+calculator/<br>
 │
-├── index.html
-│   ├── Loads the UI layout and structure
-│   ├── Links to style.css for styling
-│   └── Links to script.js for interactivity
+├── index.html<br>
+│   ├── Loads the UI layout and structure<br>
+│   ├── Links to style.css for styling<br>
+│   └── Links to script.js for interactivity<br>
+│<br>
+├── style.css<br>
+│   ├── Styles the calculator layout using CSS Grid<br>
+│   ├── Defines button styles and responsive design<br>
+│   └── Adds hover effects and visual polish<br>
 │
-├── style.css
-│   ├── Styles the calculator layout using CSS Grid
-│   ├── Defines button styles and responsive design
-│   └── Adds hover effects and visual polish
-│
-└── script.js
-    ├── Handles all button click logic
-    ├── Uses functions: appendValue(), clearDisplay(), calculate()
-    └── Evaluates user input using JavaScript
+└── script.js<br>
+    ├── Handles all button click logic<br>
+    ├── Uses functions: appendValue(), clearDisplay(), calculate()<br>
+    └── Evaluates user input using JavaScript<br>
 
