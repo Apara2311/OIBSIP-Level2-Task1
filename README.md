@@ -31,7 +31,7 @@ calculator/<br>
 │   ├── Styles the calculator layout using CSS Grid<br>
 │   ├── Defines button styles and responsive design<br>
 │   └── Adds hover effects and visual polish<br>
-│
+│<br>
 └── script.js<br>
     ├── Handles all button click logic<br>
     ├── Uses functions: appendValue(), clearDisplay(), calculate()<br>
