@@ -1,6 +1,6 @@
-#  Basic Calculator
+#  Calculator
 
-A simple web-based calculator using HTML, CSS, and JavaScript. Supports basic operations and brackets.
+🧮A simple web-based calculator using HTML, CSS, and JavaScript. Supports basic operations and brackets.
 
 ---
 
