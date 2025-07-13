@@ -28,7 +28,7 @@ The calculator consists of:
 ## 📁 Project Directory Structure
 
 calculator/<br>
-│
+│<br>
 ├── index.html<br>
 │   ├── Loads the UI layout and structure<br>
 │   ├── Links to style.css for styling<br>
