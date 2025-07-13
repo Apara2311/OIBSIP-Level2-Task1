@@ -1,39 +1,72 @@
-#  Calculator
+# 🧮 Basic Calculator
+<br>
 
-🧮A simple web-based calculator using HTML, CSS, and JavaScript. Supports basic operations and brackets.
+This project is a fully functional web-based calculator built using **HTML**, **CSS (Grid Layout)**, and **JavaScript**. It supports basic arithmetic operations as well as brackets `(` and `)` for complex expressions. The design is responsive and user-friendly.
 
----
+<br>
 
-# Features
-- Add, subtract, multiply, divide
-- Supports brackets `(` and `)`
-- Clear and equals (`=`) buttons
-- Responsive layout using CSS Grid
+## ✅ Features
+<br>
 
----
 
-# How to Use
-1. Clone or download the repository
-2. Open `index.html` in any browser
-3. Start calculating!
 
----
+- Basic operations: **Addition (+), Subtraction (−), Multiplication (×), Division (÷)**
+<br>
 
+- Bracket support: **( and )** for grouping expressions
+<br>
+
+- Decimal support using `.`
+<br>
+
+- Clear screen with **C** button
+<br>
+
+- **Responsive layout** using CSS Grid
+<br>
+
+- Clean and minimal UI
+<br>
+
+
+
+
+## 🧠 How It Works
+
+<br>
+
+The calculator consists of:
+<br>
+
+- A **display screen** to show inputs and results.
+<br>
+
+- **Buttons** for digits, operators, clear, equals, and brackets.
+<br>
+
+- JavaScript functions to handle input, clear the display, and evaluate expressions.
+<br>
+
+
+
+## 📁 Project Directory Structure
 
 calculator/<br>
-│
 ├── index.html<br>
-│   ├── Loads the UI layout and structure<br>
-│   ├── Links to style.css for styling<br>
-│   └── Links to script.js for interactivity<br>
-│<br>
+│   ├── Main HTML file<br>
+│   ├── Creates calculator structure: display + button grid<br>
+│   ├── Links style.css (for styling)<br>
+│   └── Links script.js (for logic and interactivity)<br>
 ├── style.css<br>
-│   ├── Styles the calculator layout using CSS Grid<br>
-│   ├── Defines button styles and responsive design<br>
-│   └── Adds hover effects and visual polish<br>
-│<br>
+│   ├── Styles the calculator using CSS Grid<br>
+│   ├── Sets layout, button sizes, spacing, colors, and hover effects<br>
+│   └── Ensures responsive design for different screen sizes<br>
 └── script.js<br>
-    ├── Handles all button click logic<br>
-    ├── Uses functions: appendValue(), clearDisplay(), calculate()<br>
-    └── Evaluates user input using JavaScript<br>
+    ├── appendValue(value)<br>
+    │   └── Appends digits/operators to the display<br>
+    ├── clearDisplay()<br>
+    │   └── Clears the current input on screen<br>
+    └── calculate()<br>
+        └── Evaluates the expression using eval()<br>
+
 
