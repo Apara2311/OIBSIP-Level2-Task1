@@ -24,22 +24,27 @@ The calculator consists of:
 
 ---
 
+
+
+
+
 ## 📁 Project Directory Structure
-
-
 
 ## 📁 Project Directory Structure
 
 calculator/<br>
+<br>
 ├── index.html<br>
 │   ├── Main HTML file<br>
 │   ├── Creates calculator structure: display + button grid<br>
 │   ├── Links style.css (for styling)<br>
-│   └── Links script.js (for logic and interactivity)<br><br>
+│   └── Links script.js (for logic and interactivity)<br>
+<br>
 ├── style.css<br>
 │   ├── Styles the calculator using CSS Grid<br>
 │   ├── Sets layout, button sizes, spacing, colors, and hover effects<br>
-│   └── Ensures responsive design for different screen sizes<br><br>
+│   └── Ensures responsive design for different screen sizes<br>
+<br>
 └── script.js<br>
     ├── appendValue(value)<br>
     │   └── Appends digits/operators to the display<br>
@@ -47,5 +52,6 @@ calculator/<br>
     │   └── Clears the current input on screen<br>
     └── calculate()<br>
         └── Evaluates the expression using eval()<br>
+
 
 
